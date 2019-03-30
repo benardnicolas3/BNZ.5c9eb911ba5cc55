@@ -1,0 +1,275 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2AF55F73-4FE0-46B1-B5C4-534F028A90C1}"
+	ProjectSection(SolutionItems) = preProject
+		..\appveyor.yml = ..\appveyor.yml
+		..\build.proj = ..\build.proj
+		..\build\build.targets = ..\build\build.targets
+		..\build\nuget.targets = ..\build\nuget.targets
+		..\packages.config = ..\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TaskInliner", "TaskInliner", "{89566076-8D37-4746-A4AE-8D5D183C69CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskInliner", "TaskInliner\TaskInliner\TaskInliner.csproj", "{17C121A7-BE2D-41BA-B2C8-128C5B30FF8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskInliner.Tests", "TaskInliner\TaskInliner.Tests\TaskInliner.Tests.csproj", "{B346FD53-0E06-4007-8FEB-CE4D31AD71DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeTaskAssembly", "CodeTaskAssembly", "{C7B69E0E-A4D7-4E36-BB1D-448DD8CFD0E4}"
+	ProjectSection(SolutionItems) = preProject
+		CodeTaskAssembly\CodeTaskAssembly.nuspec = CodeTaskAssembly\CodeTaskAssembly.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{BECA20D6-03D2-4114-9036-403B043016CF}"
+	ProjectSection(SolutionItems) = preProject
+		CodeTaskAssembly\build\MSBuilder.CodeTaskAssembly.props = CodeTaskAssembly\build\MSBuilder.CodeTaskAssembly.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Run", "Run", "{B3322027-B2E2-4B87-84BB-4E2BF5B73E2A}"
+	ProjectSection(SolutionItems) = preProject
+		Run\Run.nuspec = Run\Run.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{2A3535F2-AB90-4977-BCEF-52273A4F3E37}"
+	ProjectSection(SolutionItems) = preProject
+		Run\build\MSBuilder.Run.targets = Run\build\MSBuilder.Run.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Git", "Git", "{9E3B3824-9015-4FA5-A97D-C6F00841E33B}"
+	ProjectSection(SolutionItems) = preProject
+		Git\Git.nuspec = Git\Git.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{6ED44350-BD27-46E4-8C02-F4DD3006D1B1}"
+	ProjectSection(SolutionItems) = preProject
+		Git\build\MSBuilder.Git.props = Git\build\MSBuilder.Git.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{C40BCFF3-5AC8-4AFE-83EF-2B0386EF8141}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetLatestVersion", "GetLatestVersion", "{ECC6A65D-C88F-4129-A70E-AF30137D1A0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetLatestVersion", "NuGet\GetLatestVersion\GetLatestVersion\GetLatestVersion.csproj", "{D4D4C03B-4D13-4BB5-AC12-B0E0F620CE76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetLatestVersion.Tests", "NuGet\GetLatestVersion\GetLatestVersion.Tests\GetLatestVersion.Tests.csproj", "{68D6213E-A92A-475E-9477-0A4F349EE037}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThisAssembly.Project", "ThisAssembly.Project", "{D888192D-396E-453F-8924-D90874289E83}"
+	ProjectSection(SolutionItems) = preProject
+		ThisAssembly.Project\ThisAssembly.Project.nuspec = ThisAssembly.Project\ThisAssembly.Project.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{C2825554-E452-4128-8780-D7A8D0F4AC56}"
+	ProjectSection(SolutionItems) = preProject
+		ThisAssembly.Project\build\MSBuilder.ThisAssembly.Project.cs.pp = ThisAssembly.Project\build\MSBuilder.ThisAssembly.Project.cs.pp
+		ThisAssembly.Project\build\MSBuilder.ThisAssembly.Project.targets = ThisAssembly.Project\build\MSBuilder.ThisAssembly.Project.targets
+		ThisAssembly.Project\build\MSBuilder.ThisAssembly.Project.vb.pp = ThisAssembly.Project\build\MSBuilder.ThisAssembly.Project.vb.pp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IsXBuild", "IsXBuild", "{68427448-D664-4D42-A475-AFA7405B94B0}"
+	ProjectSection(SolutionItems) = preProject
+		IsXBuild\IsXBuild.nuspec = IsXBuild\IsXBuild.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{286A7DCF-63D8-4D23-B7AA-F011AFCAA1E2}"
+	ProjectSection(SolutionItems) = preProject
+		IsXBuild\build\MSBuilder.IsXBuild.props = IsXBuild\build\MSBuilder.IsXBuild.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSBuilder", "MSBuilder", "{199324B5-3B13-4333-AA88-352DE5A780EE}"
+	ProjectSection(SolutionItems) = preProject
+		MSBuilder\MSBuilder.nuspec = MSBuilder\MSBuilder.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DownloadFile", "DownloadFile", "{A5F91927-0BA0-4FC7-8697-B7AB32B01A69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadFile", "DownloadFile\DownloadFile\DownloadFile.csproj", "{62A6DCA7-C950-4570-8767-FE3731BCF7C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadFile.Tests", "DownloadFile\DownloadFile.Tests\DownloadFile.Tests.csproj", "{952ED2B3-9732-472B-8716-CB11559598FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{E45A8587-AF64-47B6-8DD6-0F7D78942490}"
+	ProjectSection(SolutionItems) = preProject
+		MSBuilder\build\MSBuilder.props = MSBuilder\build\MSBuilder.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RegexReplace", "RegexReplace", "{AEFAB238-A3DC-417E-844F-034976323613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexReplace", "RegexReplace\RegexReplace\RegexReplace.csproj", "{3FBBBB44-CC83-49F2-BC04-4450A813172F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexReplace.Tests", "RegexReplace\RegexReplace.Tests\RegexReplace.Tests.csproj", "{3D6B461F-5135-49A6-806A-6FB0E556FE18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{651973E4-369F-4DD6-9618-E983B1B94B4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Introspect", "Introspect", "{3D4BAE0B-9EB9-47C1-B113-A1D95881041A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspect", "Introspect\Introspect\Introspect.csproj", "{76FA3158-9D25-4BC2-896F-6EEA0A6E427E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspect.Tests", "Introspect\Introspect.Tests\Introspect.Tests.csproj", "{E8125C3A-8D93-4C63-8658-F087F0DDD616}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Roslyn", "Roslyn", "{F27D9312-4D46-47F0-AF97-3FA7F1232B17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roslyn", "Roslyn\Roslyn\Roslyn.csproj", "{14BA7028-5B05-43BD-9913-39E1940A56FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roslyn.Tests", "Roslyn\Roslyn.Tests\Roslyn.Tests.csproj", "{3ACD0C50-917C-4328-B063-906AC4FC03E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DumpItems", "DumpItems", "{8B3AD949-9952-4A54-9023-B127123A3132}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roslyn.ProjectReader", "Roslyn\Roslyn.ProjectReader\Roslyn.ProjectReader.csproj", "{87645A85-FA11-456B-9678-903431536108}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VisualStudio", "VisualStudio", "{E6D646DD-CFA5-4ADC-9EAB-0E25DD72B0E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IsAdministrator", "IsAdministrator", "{A1A40953-D0CF-4102-8466-3E35F26FF60F}"
+	ProjectSection(SolutionItems) = preProject
+		IsAdministrator\IsAdministrator.nuspec = IsAdministrator\IsAdministrator.nuspec
+		IsAdministrator\IsAdministrator.Test.targets = IsAdministrator\IsAdministrator.Test.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{F86E683D-C8B0-4133-954F-35B42BD72054}"
+	ProjectSection(SolutionItems) = preProject
+		IsAdministrator\build\MSBuilder.IsAdministrator.targets = IsAdministrator\build\MSBuilder.IsAdministrator.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThisAssembly.Vsix", "ThisAssembly.Vsix", "{FED20470-D2AA-4C15-B396-1DC6ED7561BE}"
+	ProjectSection(SolutionItems) = preProject
+		ThisAssembly.Vsix\ThisAssembly.Vsix.nuspec = ThisAssembly.Vsix\ThisAssembly.Vsix.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{306A59B2-C608-4E2E-B0A1-AE2E7A64A356}"
+	ProjectSection(SolutionItems) = preProject
+		ThisAssembly.Vsix\build\MSBuilder.ThisAssembly.Vsix.cs.pp = ThisAssembly.Vsix\build\MSBuilder.ThisAssembly.Vsix.cs.pp
+		ThisAssembly.Vsix\build\MSBuilder.ThisAssembly.Vsix.targets = ThisAssembly.Vsix\build\MSBuilder.ThisAssembly.Vsix.targets
+		ThisAssembly.Vsix\build\MSBuilder.ThisAssembly.Vsix.vb.pp = ThisAssembly.Vsix\build\MSBuilder.ThisAssembly.Vsix.vb.pp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dump", "Dump", "{45DA62BC-59F3-44C1-ADB4-8CDB0837D38D}"
+	ProjectSection(SolutionItems) = preProject
+		Dump\Dump.nuspec = Dump\Dump.nuspec
+		Dump\readme.txt = Dump\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{6FB34D8B-D0AA-4E0C-9304-202BA85F4D11}"
+	ProjectSection(SolutionItems) = preProject
+		Dump\build\MSBuilder.Dump.targets = Dump\build\MSBuilder.Dump.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DumpItems", "DumpItems\DumpItems.csproj", "{BD5E546D-7334-4F49-8CA9-0EA4F38BD3F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VsixExp", "VisualStudio\VsixExp\VsixExp.csproj", "{690B6F99-F215-4540-860E-3D3EEC9D0143}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VsixInstaller", "VsixInstaller", "{316DD05A-A0F9-4AD5-ACDB-766654D56AE9}"
+	ProjectSection(SolutionItems) = preProject
+		VisualStudio\VsixInstaller\build.cmd = VisualStudio\VsixInstaller\build.cmd
+		VisualStudio\VsixInstaller\MSBuilder.VsixInstaller.props = VisualStudio\VsixInstaller\MSBuilder.VsixInstaller.props
+		VisualStudio\VsixInstaller\MSBuilder.VsixInstaller.targets = VisualStudio\VsixInstaller\MSBuilder.VsixInstaller.targets
+		VisualStudio\VsixInstaller\Readme.txt = VisualStudio\VsixInstaller\Readme.txt
+		VisualStudio\VsixInstaller\VsixInstaller.nuspec = VisualStudio\VsixInstaller\VsixInstaller.nuspec
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17C121A7-BE2D-41BA-B2C8-128C5B30FF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C121A7-BE2D-41BA-B2C8-128C5B30FF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C121A7-BE2D-41BA-B2C8-128C5B30FF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C121A7-BE2D-41BA-B2C8-128C5B30FF8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B346FD53-0E06-4007-8FEB-CE4D31AD71DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B346FD53-0E06-4007-8FEB-CE4D31AD71DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B346FD53-0E06-4007-8FEB-CE4D31AD71DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B346FD53-0E06-4007-8FEB-CE4D31AD71DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D4C03B-4D13-4BB5-AC12-B0E0F620CE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D4C03B-4D13-4BB5-AC12-B0E0F620CE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D4C03B-4D13-4BB5-AC12-B0E0F620CE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D4C03B-4D13-4BB5-AC12-B0E0F620CE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D6213E-A92A-475E-9477-0A4F349EE037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D6213E-A92A-475E-9477-0A4F349EE037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D6213E-A92A-475E-9477-0A4F349EE037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D6213E-A92A-475E-9477-0A4F349EE037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A6DCA7-C950-4570-8767-FE3731BCF7C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A6DCA7-C950-4570-8767-FE3731BCF7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A6DCA7-C950-4570-8767-FE3731BCF7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A6DCA7-C950-4570-8767-FE3731BCF7C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{952ED2B3-9732-472B-8716-CB11559598FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952ED2B3-9732-472B-8716-CB11559598FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952ED2B3-9732-472B-8716-CB11559598FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952ED2B3-9732-472B-8716-CB11559598FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FBBBB44-CC83-49F2-BC04-4450A813172F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FBBBB44-CC83-49F2-BC04-4450A813172F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FBBBB44-CC83-49F2-BC04-4450A813172F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FBBBB44-CC83-49F2-BC04-4450A813172F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6B461F-5135-49A6-806A-6FB0E556FE18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6B461F-5135-49A6-806A-6FB0E556FE18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6B461F-5135-49A6-806A-6FB0E556FE18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6B461F-5135-49A6-806A-6FB0E556FE18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651973E4-369F-4DD6-9618-E983B1B94B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651973E4-369F-4DD6-9618-E983B1B94B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651973E4-369F-4DD6-9618-E983B1B94B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651973E4-369F-4DD6-9618-E983B1B94B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76FA3158-9D25-4BC2-896F-6EEA0A6E427E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76FA3158-9D25-4BC2-896F-6EEA0A6E427E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76FA3158-9D25-4BC2-896F-6EEA0A6E427E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76FA3158-9D25-4BC2-896F-6EEA0A6E427E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8125C3A-8D93-4C63-8658-F087F0DDD616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8125C3A-8D93-4C63-8658-F087F0DDD616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8125C3A-8D93-4C63-8658-F087F0DDD616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8125C3A-8D93-4C63-8658-F087F0DDD616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14BA7028-5B05-43BD-9913-39E1940A56FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14BA7028-5B05-43BD-9913-39E1940A56FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14BA7028-5B05-43BD-9913-39E1940A56FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14BA7028-5B05-43BD-9913-39E1940A56FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ACD0C50-917C-4328-B063-906AC4FC03E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ACD0C50-917C-4328-B063-906AC4FC03E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ACD0C50-917C-4328-B063-906AC4FC03E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ACD0C50-917C-4328-B063-906AC4FC03E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87645A85-FA11-456B-9678-903431536108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87645A85-FA11-456B-9678-903431536108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87645A85-FA11-456B-9678-903431536108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87645A85-FA11-456B-9678-903431536108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD5E546D-7334-4F49-8CA9-0EA4F38BD3F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD5E546D-7334-4F49-8CA9-0EA4F38BD3F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD5E546D-7334-4F49-8CA9-0EA4F38BD3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD5E546D-7334-4F49-8CA9-0EA4F38BD3F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{690B6F99-F215-4540-860E-3D3EEC9D0143}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{690B6F99-F215-4540-860E-3D3EEC9D0143}.Debug|Any CPU.Build.0 = Debug|x64
+		{690B6F99-F215-4540-860E-3D3EEC9D0143}.Release|Any CPU.ActiveCfg = Release|x64
+		{690B6F99-F215-4540-860E-3D3EEC9D0143}.Release|Any CPU.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17C121A7-BE2D-41BA-B2C8-128C5B30FF8D} = {89566076-8D37-4746-A4AE-8D5D183C69CD}
+		{B346FD53-0E06-4007-8FEB-CE4D31AD71DE} = {89566076-8D37-4746-A4AE-8D5D183C69CD}
+		{BECA20D6-03D2-4114-9036-403B043016CF} = {C7B69E0E-A4D7-4E36-BB1D-448DD8CFD0E4}
+		{2A3535F2-AB90-4977-BCEF-52273A4F3E37} = {B3322027-B2E2-4B87-84BB-4E2BF5B73E2A}
+		{6ED44350-BD27-46E4-8C02-F4DD3006D1B1} = {9E3B3824-9015-4FA5-A97D-C6F00841E33B}
+		{ECC6A65D-C88F-4129-A70E-AF30137D1A0E} = {C40BCFF3-5AC8-4AFE-83EF-2B0386EF8141}
+		{D4D4C03B-4D13-4BB5-AC12-B0E0F620CE76} = {ECC6A65D-C88F-4129-A70E-AF30137D1A0E}
+		{68D6213E-A92A-475E-9477-0A4F349EE037} = {ECC6A65D-C88F-4129-A70E-AF30137D1A0E}
+		{C2825554-E452-4128-8780-D7A8D0F4AC56} = {D888192D-396E-453F-8924-D90874289E83}
+		{286A7DCF-63D8-4D23-B7AA-F011AFCAA1E2} = {68427448-D664-4D42-A475-AFA7405B94B0}
+		{62A6DCA7-C950-4570-8767-FE3731BCF7C2} = {A5F91927-0BA0-4FC7-8697-B7AB32B01A69}
+		{952ED2B3-9732-472B-8716-CB11559598FF} = {A5F91927-0BA0-4FC7-8697-B7AB32B01A69}
+		{E45A8587-AF64-47B6-8DD6-0F7D78942490} = {199324B5-3B13-4333-AA88-352DE5A780EE}
+		{3FBBBB44-CC83-49F2-BC04-4450A813172F} = {AEFAB238-A3DC-417E-844F-034976323613}
+		{3D6B461F-5135-49A6-806A-6FB0E556FE18} = {AEFAB238-A3DC-417E-844F-034976323613}
+		{76FA3158-9D25-4BC2-896F-6EEA0A6E427E} = {3D4BAE0B-9EB9-47C1-B113-A1D95881041A}
+		{E8125C3A-8D93-4C63-8658-F087F0DDD616} = {3D4BAE0B-9EB9-47C1-B113-A1D95881041A}
+		{14BA7028-5B05-43BD-9913-39E1940A56FD} = {F27D9312-4D46-47F0-AF97-3FA7F1232B17}
+		{3ACD0C50-917C-4328-B063-906AC4FC03E9} = {F27D9312-4D46-47F0-AF97-3FA7F1232B17}
+		{87645A85-FA11-456B-9678-903431536108} = {F27D9312-4D46-47F0-AF97-3FA7F1232B17}
+		{F86E683D-C8B0-4133-954F-35B42BD72054} = {A1A40953-D0CF-4102-8466-3E35F26FF60F}
+		{306A59B2-C608-4E2E-B0A1-AE2E7A64A356} = {FED20470-D2AA-4C15-B396-1DC6ED7561BE}
+		{6FB34D8B-D0AA-4E0C-9304-202BA85F4D11} = {45DA62BC-59F3-44C1-ADB4-8CDB0837D38D}
+		{BD5E546D-7334-4F49-8CA9-0EA4F38BD3F8} = {8B3AD949-9952-4A54-9023-B127123A3132}
+		{690B6F99-F215-4540-860E-3D3EEC9D0143} = {E6D646DD-CFA5-4ADC-9EAB-0E25DD72B0E6}
+		{316DD05A-A0F9-4AD5-ACDB-766654D56AE9} = {E6D646DD-CFA5-4ADC-9EAB-0E25DD72B0E6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A111905-D9C7-4A23-9484-79F4DB25E0F8}
+	EndGlobalSection
+EndGlobal
